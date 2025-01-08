@@ -106,7 +106,7 @@ h3{
     text-align: center;
 }
 .list{
-    padding: 0;
+    padding: 0px;
 }
 .list li{
     width: auto;
@@ -114,17 +114,6 @@ h3{
     list-style-type:none;
     padding: 5px;
     position: relative;
-}
-.list li::before{
-    content: '';
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 100%;
-    width: 0;
-    height: 2px;
-    background: #f18930;
-    transition-duration: .5s;
 }
 .list li:hover::before{
     width: 70px;
@@ -157,13 +146,46 @@ a:hover{
     padding: 10px 0;
     margin-top: 50px;
 }
-.bottom-bar p{
+.bottom-bar small{
     color: #ffffff;
     margin: 0;
-    font-size: 16px;
+    font-size: 12px;
     padding: 7px;
 }
 .footer-content-1 {
-    text-align: center;
-    font-size: 15px;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.footer-content-1 h3 {
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    background: #6dce8d;
+    color: #fff;
+    padding: 8px 18px;
+    margin: 5px 0;
+    border-radius: 35px;
+    transition:  0.5ms;
+}
+.footer-content-2 h3 {
+    text-align: left;
+    padding: 0px 10px;
+}
+.footer-content-3 h3 {
+    text-align: left;
+    padding: 0px 10px;
+}
+.footer-content-2 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.footer-content-3 {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.footer-content-1 p1 {
+    color: #43ce66;
 }
