@@ -29,6 +29,22 @@ nav ul li {
     text-align: center;
     color: #000000;
 }
+strong {
+    font-weight: bolder;
+    font-size: 20px;
+}
+span {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 7.54px;
+    display: block;
+    margin-bottom: 12px;
+}
+.res p {
+    color: #000000;
+}
 a {
     text-decoration: none;
     color: #000000;
@@ -38,6 +54,7 @@ p {
 }
 h1 {
     color: #ffffff;
+    font-size: 60px;
 }
 h3 {
     color: #ffffff;
@@ -51,6 +68,32 @@ small {
     padding-left: 25px;
     padding-right: 25px;
 }
+.col-3 h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 126%;
+}
+.col-3 p {
+    line-height: 175%;
+    margin-bottom: 40px;
+}
+.col-3 {
+    text-align: center;
+    width: 1000px;
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    visibility: visible !important;
+}
+.col-3 h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #228B22;
+    text-align: right;
+    font-family: 'Kalam', cursive;
+    margin: 25px 0 5px;
+}
+
 
 .header {
     background: repeating-linear-gradient(#ffffff,#ffffff);
@@ -301,4 +344,21 @@ a:hover{
 }
 .footer-content-1 p1 {
     color: #43ce66;
+}
+.footer-copy {
+    padding-top: 80px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer-copy a {
+    color: #fff;
+}
+.col-4 {
+    text-align: center;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bottom-bar-2 a {
+    color: #fff;
 }
